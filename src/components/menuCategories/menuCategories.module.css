@@ -1,0 +1,17 @@
+.categoryList {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+
+.categoryItem {
+    padding: 0.75rem 1.5rem;
+    font-size: 14px;
+    border-radius: 0.5rem;
+}
+
+.style {
+    background-color: lightseagreen;
+}

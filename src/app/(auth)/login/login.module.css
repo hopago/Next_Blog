@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.wrapper {
+    background-color: var(--softBg);
+    padding: 10rem 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border-radius: 1rem;
+}
+
+.socialGoogle,
+.socialGithub,
+.socialFacebook {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialGoogle {
+    background-color: #ff5555;
+}
+
+.socialGithub {
+    background-color: black;
+}
+
+.socialFacebook {
+    background-color: #087BEA;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding: 3rem 6rem;
+    }
+
+    .socialGoogle,
+    .socialGithub,
+    .socialFacebook {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper {
+        padding: 2rem;
+    }
+
+    .socialGoogle,
+    .socialGithub,
+    .socialFacebook {
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+}

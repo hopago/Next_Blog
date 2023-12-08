@@ -1,0 +1,71 @@
+.container {
+    margin-top: 3rem;
+}
+
+.title {
+    color: var(--softText);
+    margin-bottom: 1.75rem;
+}
+
+.write {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.input {
+    padding: 1rem;
+    width: 100%;
+}
+
+.button {
+    padding: 1rem 1.25rem;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.comments {
+    margin-top: 3rem;
+}
+
+.comment {
+    margin-bottom: 3rem;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.image {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    color: var(--softText);
+}
+
+.userName {
+    font-weight: 500;
+}
+
+.userCreatedAt {
+    font-size: 0.75rem;
+}
+
+.desc {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+

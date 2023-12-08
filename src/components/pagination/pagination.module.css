@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 100px;
+    border: none;
+    padding: 1rem;
+    background-color: lightcoral;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:disabled {
+    background-color: rgba(220, 20, 60, .5);
+    color: white;
+    font-weight: bold;
+    cursor: not-allowed;
+}
